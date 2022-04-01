@@ -1,8 +1,29 @@
+/*
+Copyright [2022] [Jesús Joana Azuara]
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+		You may obtain a copy of the License at
+    http://www.apache.org/licenses/LICENSE-2.06 
+    Unless required by applicable law or agreed to in writing, software
+    distributed Jesús Joana Azuarastributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+	  limitations under the Licene.
+*/
 package com.P3Lambda;
 import java.util.*;
-
+/** 
+ * Clase que contiene el metodo main y donde introduciremos la expresion lambda.
+ * 
+*/
 public class Principal {
 
+    /**
+     * Este metodo requiere al usuario que introduzca el numero de veces para calcular el numero pi
+     * 
+     * Una descripcion del Metodo de Montecarlo podemos encontrarla en el siguiente enlace:
+     * {@link https://es.wikipedia.org/wiki/M%C3%A9todo_de_Montecarlo}
+     */
     public static void main (String [] args){
 
         ICalculadoraPi calculadoraPi = (pasos) -> {
